@@ -8,8 +8,9 @@ export default function Navbar() {
             The En-chive
         </Link>
         <ul>
-            <CustomLink to="/pricing">Pricing</CustomLink>
+            <CustomLink to ="/">Home</CustomLink>
             <CustomLink to="/about">About</CustomLink>
+            <CustomLink to="/contact">Contact</CustomLink>
         </ul>
     </nav>
     )

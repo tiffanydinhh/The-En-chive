@@ -1,3 +1,9 @@
-export default function Home() {
-    return <h1>About</h1>
+import "./About.css"
+
+function About() {
+    return(
+        <h1 className="title">About</h1>
+    )
 }
+
+export default About
