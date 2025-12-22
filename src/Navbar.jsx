@@ -5,12 +5,12 @@ export default function Navbar() {
     return ( 
         <nav className="nav">
         <Link to="/" className="site-title">
-            The En-chive
+            The EN-chive
         </Link>
         <ul>
-            <CustomLink to ="/">Home</CustomLink>
-            <CustomLink to="/about">About</CustomLink>
-            <CustomLink to="/contact">Contact</CustomLink>
+            <CustomLink to ="/">HOME</CustomLink>
+            <CustomLink to="/about">ABOUT</CustomLink>
+            <CustomLink to="/contact">CONTACT</CustomLink>
         </ul>
     </nav>
     )
