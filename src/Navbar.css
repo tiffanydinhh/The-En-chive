@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: PixelifySans;
+    src: url(./fonts/PixelifySans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: MartianMono;
+    src: url(./fonts/MartianMono-VariableFont_wdth\,wght.ttf);
+}
+
 body {
     margin: 0;
 }
@@ -22,18 +32,22 @@ body {
 }
 
 .nav a.site-title {
-    font-size: 3rem;
+    font-family: PixelifySans;
+    font-size: 3.5rem;
     margin-top: 10rem; /* add space above elememnt */
+    margin-left: 1rem;
     background-color: white;
     height: max-content;
     width: max-content;
     padding: 10px;
-    border-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
     color: black;
 }
 
 .nav ul {
+    font-family: MartianMono;
     top: 10px;
     padding: 0;
     margin: 0;
