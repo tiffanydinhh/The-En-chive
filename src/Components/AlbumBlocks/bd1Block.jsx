@@ -1,5 +1,4 @@
-import profilePic from "./assets/jungwon.jpg"
-import "./bd1Block.css"
+import "../AlbumBlocks/bd1Block.css"
 
 function Card() {
     return(

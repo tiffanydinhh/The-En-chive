@@ -1,7 +1,7 @@
 import { useImperativeHandle } from "react"
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
-import image from "./assets/jungwon.jpg"
+import image from "../../assets/jungwon.jpg"
 
 function Image() {
     return(

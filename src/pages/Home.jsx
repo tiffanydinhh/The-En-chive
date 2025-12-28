@@ -1,6 +1,6 @@
 import "./Home.css"
-import BorderDayOne from "../bd1Block.jsx"
-import Image from "../bd1Img.jsx"
+import BorderDayOne from "../Components/AlbumBlocks/bd1Block.jsx"
+import Image from "../Components/AlbumImages/bd1Img.jsx"
 
 function Home() {
     return(
