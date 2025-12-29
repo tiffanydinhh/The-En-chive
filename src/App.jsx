@@ -4,6 +4,7 @@ import Navbar from "./Navbar"
 import Contact from "./pages/Contact"
 import Home from "./pages/Home"
 import About from "./pages/About"
+import BorderDayOne from "./pages/bd1"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/bd1" element={<BorderDayOne />} />
         </Routes>
     </>
   )

@@ -1,6 +1,6 @@
 import "../AlbumBlocks/bd1Block.css"
 
-function Card() {
+function AlbumBlock() {
     return(
         <div className="card">
             <h2 className="albumTitle">BORDER: DAY ONE</h2>
@@ -8,4 +8,4 @@ function Card() {
     )
 }
 
-export default Card
+export default AlbumBlock

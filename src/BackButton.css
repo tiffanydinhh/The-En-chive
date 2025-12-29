@@ -1,0 +1,16 @@
+.back-button::before {
+    content: "\2190";
+}
+
+.back-button {
+    font-family: PixelifySans;
+    font-weight: normal;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+}
+
+button {
+    all: unset;
+}

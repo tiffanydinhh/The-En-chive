@@ -1,0 +1,13 @@
+.bd1-title {
+    font-family: PixelifySans;
+    font-size: 2.3rem;
+    font-weight: normal;
+    margin: 1rem;
+    text-align: center;
+    border: 4px solid black;
+    margin-left: 36rem;
+    margin-right: 36rem;
+    margin-top: 3rem;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+
+}
