@@ -4,7 +4,7 @@ import Navbar from "./Navbar"
 import Contact from "./pages/Contact"
 import Home from "./pages/Home"
 import About from "./pages/About"
-import BorderDayOne from "./pages/bd1"
+import BorderDayOne from "./pages/bd1Page"
 
 function App() {
   return (
