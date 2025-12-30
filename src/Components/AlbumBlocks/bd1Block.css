@@ -1,0 +1,24 @@
+.card {
+   background-image: url(../../assets/Albums/bd1_bg.jpg);
+   border: 1px solid hsl(0, 0%, 80%);
+   border-radius: 20px;
+   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+   padding: 20px;
+   margin-top: 5rem;
+   margin-left: -5px;
+   text-align: center;
+   width: 50rem;
+   height: 15.7rem;
+   background-position: center -9.5rem;
+   background-size: cover;
+   display: flex;
+   justify-content: center; /* horizontal */
+   align-items: center; /* vertical */
+}
+
+.albumTitle {
+   font-family: PixelifySans;
+   font-weight: normal;
+   font-size: 3rem;
+   color: white;
+}
