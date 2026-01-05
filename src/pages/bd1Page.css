@@ -20,35 +20,19 @@
     width: 20rem;
     height: auto;
     box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.4);
-    margin-top: 4rem;
-    margin-left: 10rem;
 }
 
-.bd1-info1 {
+.bd1-album-section {
+    display: flex; /* aligns items in row */
+    align-items: flex-start; /* all items stick to left */
+    gap: 5rem;
+    margin: 5rem;
+}
+
+.bd1-album-info {
     font-family: ReemKufiInk;
     font-weight: normal;
     font-size: 1.7rem;
-    margin-left: 37rem;
-    margin-right: 9rem;
-    margin-top: -21rem;
-}
-
-.bd1-info2 {
-    font-family: ReemKufiInk;
-    font-weight: normal;
-    font-size: 1.7rem;
-    margin-left: 37rem;
-    margin-right: 9rem;
-    margin-top: 2rem;
-}
-
-.bd1-info3 {
-    font-family: ReemKufiInk;
-    font-weight: normal;
-    font-size: 1.7rem;
-    margin-left: 37rem;
-    margin-right: 9rem;
-    margin-top: 2rem;
 }
 
 .bd1-tracklist-title {
@@ -58,24 +42,30 @@
     text-align: center;
     border: 4px solid black;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
-    margin-left: 10rem;
-    margin-right: 68rem;
-    margin-top: 10rem;
     padding: 5px;
 }
 
-.bd1-tracklist {
+.bd1-tracklist-songs {
     font-family: ReemKufiInk;
     font-size: 2rem;
-    margin-left: 10rem;
-    margin-top: 3rem;
 }
 
 .bd1-tracklist-description {
     font-family: ReemKufiInk;
     text-align: center;
-    margin-left: 50rem;
-    margin-top: -14rem;
-    margin-right: 15rem;
     font-size: 1.8rem;
+    margin-top: 15rem;
+}
+
+.bd1-tracklist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 7rem;
+}
+
+.bd1-tracklist-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 10rem;
 }
