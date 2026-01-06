@@ -3,6 +3,7 @@
 }
 
 .back-button {
+    display:inline-block;
     font-family: PixelifySans;
     font-weight: normal;
     font-size: 2rem;

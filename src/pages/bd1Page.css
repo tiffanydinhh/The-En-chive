@@ -3,16 +3,20 @@
     src: url(../fonts/ReemKufiInk-Regular.ttf);
 }
 
+.bd1-title-wrapper {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
 .bd1-title {
+    display: inline-block;
     font-family: PixelifySans;
     font-size: 2.5rem;
     font-weight: normal;
     text-align: center;
     border: 4px solid black;
-    margin-left: 36rem;
-    margin-right: 36rem;
     padding: 5px;
-    margin-top: 3rem;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -68,4 +72,24 @@
     display: flex;
     align-items: flex-start;
     gap: 10rem;
+}
+
+.given-taken::after {
+    content: "\2605"
+}
+
+.bd1-ca-title-wrapper {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.bd1-ca-title {
+    display: inline-block;
+    font-family: PixelifySans;
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+    border: 4px solid black;
+    padding: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }

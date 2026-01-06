@@ -7,7 +7,9 @@ function BorderDayOne() {
     return(
         <div>
             <BackButton />
-            <h1 className="bd1-title">Border: Day One</h1>
+            <div className="bd1-title-wrapper">
+                <h1 className="bd1-title">Border: Day One</h1>
+            </div>
 
             <div className="bd1-album-section">
                 <img className="bd1-album-image" src={bd1AlbumImage} alt="Border Day One Album Image"></img>
@@ -36,7 +38,7 @@ function BorderDayOne() {
 
                     <ol className="bd1-tracklist-songs">
                         <li>Intro: Walk the Line</li>
-                        <li>Given-Taken</li>
+                        <li className="given-taken">Given-Taken</li>
                         <li>Let Me In (20 Cube)</li>
                         <li>10 Months</li>
                         <li>Flicker</li>
@@ -46,6 +48,9 @@ function BorderDayOne() {
                 <h2 className="bd1-tracklist-description">Click on the star to view more information about the title track!</h2>
             </div>
 
+            <div className="bd1-ca-title-wrapper">
+                <h1 className="bd1-ca-title">CONCEPTS AND ALBUM VERSIONS</h1>
+            </div>
         </div>
     )
 }
