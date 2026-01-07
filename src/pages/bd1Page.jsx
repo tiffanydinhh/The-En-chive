@@ -1,7 +1,8 @@
 import "./bd1Page.css"
 import BackButton from "../BackButton.jsx"
-import bd1AlbumImage from "../assets/Albums/bd1_logo.jpg"
-import star from "../assets/star.png"
+import bd1AlbumImage from "../assets/bd1/bd1_logo.jpg"
+import bd1DawnImage from "../assets/bd1/bd1-dawn.jpg"
+import bd1DuskImage from "../assets/bd1/bd1-dusk.jpg"
 
 function BorderDayOne() {
     return(
@@ -50,6 +51,16 @@ function BorderDayOne() {
 
             <div className="bd1-ca-title-wrapper">
                 <h1 className="bd1-ca-title">CONCEPTS AND ALBUM VERSIONS</h1>
+            </div>
+        
+            <div className="bd1-concept-images">
+                <img className="bd1-dawn-image" src={bd1DawnImage} alt="Dawn Concept Photo"></img>
+                <img className="bd1-dusk-image" src={bd1DuskImage} alt="Dusk Concept Photo"></img>
+            </div>
+
+            <div className="bd1-concept-images-text">
+                <h2 className="dusk-text">DUSK</h2>
+                <h2 className="dawn-text">DAWN</h2>
             </div>
         </div>
     )

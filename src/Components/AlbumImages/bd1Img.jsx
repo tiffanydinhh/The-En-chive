@@ -2,7 +2,7 @@ import { useImperativeHandle } from "react"
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
 import "./bd1Img.css"
-import image from "../../assets/Albums/bd1_logo.jpg"
+import image from "../../assets/bd1/bd1_logo.jpg"
 
 function bd1Image() {
     return(
