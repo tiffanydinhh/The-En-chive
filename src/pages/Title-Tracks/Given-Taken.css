@@ -1,0 +1,15 @@
+.given-taken-title-wrapper {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.given-taken-title {
+    display: inline-block;
+    font-family: PixelifySans;
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+    border: 4px solid black;
+    padding: 5px 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}

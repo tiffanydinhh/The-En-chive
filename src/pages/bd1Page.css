@@ -16,7 +16,7 @@
     font-weight: normal;
     text-align: center;
     border: 4px solid black;
-    padding: 5px;
+    padding: 5px 20px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -46,7 +46,7 @@
     text-align: center;
     border: 4px solid black;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
-    padding: 5px;
+    padding: 5px 20px;
 }
 
 .bd1-tracklist-songs {
@@ -68,14 +68,19 @@
     margin-left: 7rem;
 }
 
-.bd1-tracklist-section {
-    display: flex;
-    align-items: flex-start;
-    gap: 10rem;
+.given-taken {
+    text-decoration: underline;
+    color: black;
 }
 
 .given-taken::after {
     content: "\2605"
+}
+
+.bd1-tracklist-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 10rem;
 }
 
 .bd1-ca-title-wrapper {

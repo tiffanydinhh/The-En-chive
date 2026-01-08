@@ -4,6 +4,9 @@ import bd1AlbumImage from "../assets/bd1/bd1_logo.jpg"
 import bd1DawnImage from "../assets/bd1/bd1-dawn.jpg"
 import bd1DuskImage from "../assets/bd1/bd1-dusk.jpg"
 
+import { useImperativeHandle } from "react"
+import { Link, useMatch, useResolvedPath } from "react-router-dom"
+
 function BorderDayOne() {
     return(
         <div>
@@ -39,7 +42,11 @@ function BorderDayOne() {
 
                     <ol className="bd1-tracklist-songs">
                         <li>Intro: Walk the Line</li>
-                        <li className="given-taken">Given-Taken</li>
+
+                        <Link to="/giventaken">
+                            <li className="given-taken">Given-Taken</li>
+                        </Link>
+
                         <li>Let Me In (20 Cube)</li>
                         <li>10 Months</li>
                         <li>Flicker</li>
