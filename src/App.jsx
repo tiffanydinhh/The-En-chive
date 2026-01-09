@@ -5,7 +5,7 @@ import Contact from "./pages/Contact"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import BorderDayOne from "./pages/bd1Page"
-import GivenTaken from "./pages/Title-Tracks/GivenTaken"
+import GivenTaken from "./pages/Title-Tracks/Given-Taken"
 
 function App() {
   return (
