@@ -26,3 +26,25 @@
     font-weight: normal;
     font-size: 1.7rem;
 }
+
+.lyrics-title {
+    display: inline-block;
+    font-family: PixelifySans;
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+    border: 4px solid black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    padding: 5px 20px;
+}
+
+.given-taken-lyrics {
+    font-family: ReemKufiInk;
+    font-weight: normal;
+    font-size: 1.7rem;
+}
+
+.given-taken-lyrics-section {
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
