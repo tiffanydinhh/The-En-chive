@@ -1,6 +1,7 @@
 import "./Given-Taken.css"
 import BackButton from "../../BackButton"
 import bd1AlbumImage from "../../assets/bd1/bd1_logo.jpg"
+import jungwonImage from "../../assets/jungwon.jpeg"
 
 function GivenTaken() {
     return(
@@ -91,6 +92,10 @@ function GivenTaken() {
                     신세계에 닿을 때까지 <br></br>
                     내 하얀 송곳니 <br></br>
                 </p>
+            </div>
+
+            <div>
+                <img className="jungwon-image" src={jungwonImage}alt="jungwon-photo"></img>
             </div>
 
         </div>
