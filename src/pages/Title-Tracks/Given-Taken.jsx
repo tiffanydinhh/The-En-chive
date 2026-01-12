@@ -1,7 +1,13 @@
 import "./Given-Taken.css"
 import BackButton from "../../BackButton"
 import bd1AlbumImage from "../../assets/bd1/bd1_logo.jpg"
-import jungwonImage from "../../assets/jungwon.jpeg"
+import jungwonImage from "../../assets/jungwon.jpg"
+import heeseungImage from "../../assets/heeseung.jpg"
+import jayImage from "../../assets/jay.jpg"
+import jakeImage from "../../assets/jake.jpg"
+import sunghoonImage from "../../assets/sunghoon.jpg"
+import sunooImage from "../../assets/sunoo.jpg"
+import nikiImage from "../../assets/ni-ki.jpg"
 
 function GivenTaken() {
     return(
@@ -94,8 +100,14 @@ function GivenTaken() {
                 </p>
             </div>
 
-            <div>
+            <div className="member-images">
                 <img className="jungwon-image" src={jungwonImage}alt="jungwon-photo"></img>
+                <img className="heeseung-image" src={heeseungImage}alt="heeseung-photo"></img>
+                <img className="jay-image" src={jayImage}alt="jay-photo"></img>
+                <img className="jake-image" src={jakeImage}alt="jake-photo"></img>
+                <img className="sunghoon-image" src={sunghoonImage}alt="sunghoon-photo"></img>
+                <img className="sunoo-image" src={sunooImage}alt="sunoo-photo"></img>
+                <img className="ni-ki-image" src={nikiImage}alt="ni-ki-photo"></img>
             </div>
 
         </div>

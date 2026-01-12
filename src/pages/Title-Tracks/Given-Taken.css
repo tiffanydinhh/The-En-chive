@@ -50,7 +50,43 @@
 }
 
 .jungwon-image {
-    width: 30rem;
+    width: 20rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.heeseung-image {
+    width: 20rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.jay-image {
+    width: 20rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.jake-image {
+    width: 20rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.sunghoon-image {
+    width: 20rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.sunoo-image {
+    width: 20rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.ni-ki-image {
+    width: 20rem;
     height: auto;
     border-radius: 50%;
 }
