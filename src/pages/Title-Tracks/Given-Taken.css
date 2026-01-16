@@ -62,13 +62,67 @@
     display: flex;
     margin-top: 10rem;
     margin-left: 5rem;
-    gap: 8rem;
+    gap: 4rem;
 }
 
-.rectangle {
-    width: 50rem;
+.gt-jungwon-line {
+    width: 18rem;
+    height: 10px;
+    margin-top: 5rem;
+    border-radius: 10px;
+    background-color: #EF6B6B;
+}
+
+.gt-heeseung-line {
+    width: 34rem;
+    height: 10px;
+    margin-top: 17rem;
+    border-radius: 10px;
+    background-color: #EF6B6B;
+}
+
+.gt-jay-line {
+    width: 10rem;
     height: 10px;
     border-radius: 10px;
-    background-color: pink;
-    margin-bottom: 5rem;
+    margin-top: 16rem;
+    background-color: #EF6B6B;
+}
+
+.gt-jake-line {
+    width: 12rem;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 16rem;
+    background-color: #EF6B6B;
+}
+
+.gt-sunghoon-line {
+    width: 15rem;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 17rem;
+    background-color: #EF6B6B;
+}
+
+.gt-sunoo-line {
+    width: 13rem;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 17rem;
+    background-color: #EF6B6B;
+}
+
+.gt-ni-ki-line {
+    width: 9rem;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 17rem;
+    background-color: #EF6B6B;
+}
+
+.given-taken-lines {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
 }

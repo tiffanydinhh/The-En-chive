@@ -110,9 +110,19 @@ function GivenTaken() {
                     <img className="sunoo-image" src={sunooImage}alt="sunoo-photo"></img>
                     <img className="ni-ki-image" src={nikiImage}alt="ni-ki-photo"></img>
                 </div>
+
+                <div className="given-taken-lines">
+                    <div class="rectangle gt-jungwon-line"></div>
+                    <div class="rectangle gt-heeseung-line"></div>
+                    <div class="rectangle gt-jay-line"></div>
+                    <div class="rectangle gt-jake-line"></div>
+                    <div class="rectangle gt-sunghoon-line"></div>
+                    <div class="rectangle gt-sunoo-line"></div>
+                    <div class="rectangle gt-ni-ki-line"></div>
+                </div>
+
             </div>
 
-            <div class="rectangle"></div>
 
         </div>
     )
