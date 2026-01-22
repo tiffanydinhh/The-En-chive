@@ -103,12 +103,26 @@ function GivenTaken() {
 
                 <div className="member-icons">
                     <img className="jungwon-image" src={jungwonImage}alt="jungwon-photo"></img>
+                    <p> jungwon </p>
+
                     <img className="heeseung-image" src={heeseungImage}alt="heeseung-photo"></img>
+                    <p> heeseung </p>
+
                     <img className="jay-image" src={jayImage}alt="jay-photo"></img>
+                    <p> jay </p>
+
                     <img className="jake-image" src={jakeImage}alt="jake-photo"></img>
+                    <p> jake </p>
+
                     <img className="sunghoon-image" src={sunghoonImage}alt="sunghoon-photo"></img>
+                    <p> sunghoon </p>
+
                     <img className="sunoo-image" src={sunooImage}alt="sunoo-photo"></img>
+                    <p> sunoo </p>
+
                     <img className="ni-ki-image" src={nikiImage}alt="ni-ki-photo"></img>
+                    <p> ni-ki </p>
+
                 </div>
 
                 <div className="given-taken-lines">

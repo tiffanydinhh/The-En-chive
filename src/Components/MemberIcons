@@ -1,0 +1,17 @@
+import "./MemberIcons.css"
+
+import jungwonImage from "../assets/jungwon.jpg"
+import heeseungImage from "../assets/heeseung.jpg"
+import jayImage from "../assets/jay.jpg"
+import jakeImage from "../assets/jake.jpg"
+import sunghoonImage from "../assets/sunghoon.jpg"
+import sunooImage from "../assets/sunoo.jpg"
+import nikiImage from "../assets/ni-ki.jpg"
+
+function MemberIcons() {
+    return(
+        
+    )
+}
+
+export default MemberIcons
