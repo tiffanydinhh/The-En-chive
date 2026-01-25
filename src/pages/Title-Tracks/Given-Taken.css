@@ -44,20 +44,6 @@
     font-size: 1.7rem;
 }
 
-
-.member-icons img{
-    display: flex;
-    flex-direction: column;
-    width: 12rem;
-    height: auto;
-    border-radius: 50%;
-    margin-top: 5rem;
-}
-
-.member-icons {
-    margin-top: 5rem;
-}
-
 .given-taken-lyrics-section {
     display: flex;
     margin-top: 10rem;
@@ -76,7 +62,7 @@
 .gt-heeseung-line {
     width: 34rem;
     height: 10px;
-    margin-top: 17rem;
+    margin-top: 19rem;
     border-radius: 10px;
     background-color: #EF6B6B;
 }
@@ -85,7 +71,7 @@
     width: 10rem;
     height: 10px;
     border-radius: 10px;
-    margin-top: 16rem;
+    margin-top: 19rem;
     background-color: #EF6B6B;
 }
 
@@ -93,7 +79,7 @@
     width: 12rem;
     height: 10px;
     border-radius: 10px;
-    margin-top: 16rem;
+    margin-top: 19rem;
     background-color: #EF6B6B;
 }
 
@@ -101,7 +87,7 @@
     width: 15rem;
     height: 10px;
     border-radius: 10px;
-    margin-top: 17rem;
+    margin-top: 19rem;
     background-color: #EF6B6B;
 }
 
@@ -109,7 +95,7 @@
     width: 13rem;
     height: 10px;
     border-radius: 10px;
-    margin-top: 17rem;
+    margin-top: 19rem;
     background-color: #EF6B6B;
 }
 
@@ -117,7 +103,7 @@
     width: 9rem;
     height: 10px;
     border-radius: 10px;
-    margin-top: 17rem;
+    margin-top: 19rem;
     background-color: #EF6B6B;
 }
 

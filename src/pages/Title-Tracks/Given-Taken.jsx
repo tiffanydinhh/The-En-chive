@@ -1,13 +1,8 @@
 import "./Given-Taken.css"
 import BackButton from "../../BackButton"
 import bd1AlbumImage from "../../assets/bd1/bd1_logo.jpg"
-import jungwonImage from "../../assets/jungwon.jpg"
-import heeseungImage from "../../assets/heeseung.jpg"
-import jayImage from "../../assets/jay.jpg"
-import jakeImage from "../../assets/jake.jpg"
-import sunghoonImage from "../../assets/sunghoon.jpg"
-import sunooImage from "../../assets/sunoo.jpg"
-import nikiImage from "../../assets/ni-ki.jpg"
+import MemberIcons from "../../Components/MemberIcons.jsx"
+
 
 function GivenTaken() {
     return(
@@ -101,29 +96,7 @@ function GivenTaken() {
                     </p>
                 </div>
 
-                <div className="member-icons">
-                    <img className="jungwon-image" src={jungwonImage}alt="jungwon-photo"></img>
-                    <p> jungwon </p>
-
-                    <img className="heeseung-image" src={heeseungImage}alt="heeseung-photo"></img>
-                    <p> heeseung </p>
-
-                    <img className="jay-image" src={jayImage}alt="jay-photo"></img>
-                    <p> jay </p>
-
-                    <img className="jake-image" src={jakeImage}alt="jake-photo"></img>
-                    <p> jake </p>
-
-                    <img className="sunghoon-image" src={sunghoonImage}alt="sunghoon-photo"></img>
-                    <p> sunghoon </p>
-
-                    <img className="sunoo-image" src={sunooImage}alt="sunoo-photo"></img>
-                    <p> sunoo </p>
-
-                    <img className="ni-ki-image" src={nikiImage}alt="ni-ki-photo"></img>
-                    <p> ni-ki </p>
-
-                </div>
+                <MemberIcons />
 
                 <div className="given-taken-lines">
                     <div class="rectangle gt-jungwon-line"></div>

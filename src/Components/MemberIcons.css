@@ -1,0 +1,17 @@
+.member-icons img{
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 5rem;
+}
+
+.member-icons p {
+    font-family: ReemKufiInk;
+    text-align: center;
+}
+
+.member-icons {
+    margin-top: 5rem;
+}
