@@ -1,4 +1,10 @@
+.about-title-wrapper {
+    text-align: center;
+    margin-top: 2rem;
+}
+
 .about-title {
+    display: inline-block;
     font-family: PixelifySans;
     font-size: 2.3rem;
     font-weight: normal;
@@ -9,5 +15,5 @@
     margin-right: 40rem;
     margin-top: 3rem;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
-
+    padding: 5px 20px;
 }
