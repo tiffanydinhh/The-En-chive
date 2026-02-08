@@ -5,11 +5,14 @@
     height: auto;
     border-radius: 50%;
     margin-top: 5rem;
+    box-shadow: 4px 6px 5px 0.5px rgba(0, 0, 0, 0.5);
 }
 
 .member-icons p {
     font-family: ReemKufiInk;
     text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .member-icons {
