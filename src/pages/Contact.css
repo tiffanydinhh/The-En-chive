@@ -1,13 +1,55 @@
+.contact-title-wrapper {
+    text-align: center;
+    margin-top: 2rem;
+}
+
 .contact-title {
+    display: inline-block;
     font-family: PixelifySans;
     font-size: 2.3rem;
     font-weight: normal;
-    margin: 1rem;
+    margin-top: 1rem;
     text-align: center;
     border: 4px solid black;
-    margin-left: 40rem;
-    margin-right: 40rem;
-    margin-top: 3rem;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    padding: 5px 20px;
+}
 
+.contact-header {
+    font-family: ReemKufiInk;
+    font-size: 1.2rem;
+    padding: 0rem 5rem 2rem 5rem;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 2rem 5rem 2rem 5rem;
+    text-align: center;
+    margin: 1rem 4rem 4rem 4rem;
+    background-color: #faf7f5;
+    border: 2px solid #d6d2d0;
+    border-radius: 10px;
+}
+
+.contact-form label {
+    font-family: ReemKufiInk;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.6rem;
+}
+
+.contact-form button {
+    font-family: ReemKufiInk;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #b0aeae;
+    margin-top: 1rem;
 }
