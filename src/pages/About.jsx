@@ -16,7 +16,7 @@ function About() {
                 designing, front-end development, and using React.</p>
 
             <h2 className="about-header">ACKNOWLEDGEMENTS/COPYRIGHT:</h2>
-            <p className="about-text">All images belong to their rightful owneres. This website was only created for practice front-end development.</p>
+            <p className="about-text">All images belong to their rightful owners. This website was only created for practice front-end development.</p>
 
         </div>
     )
