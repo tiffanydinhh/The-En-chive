@@ -19,3 +19,11 @@
     margin-top: 4rem;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
+.borderDayOneImg {
+    transition: transform 0.3s ease; /* scaling will have a smooth ease effect*/
+    cursor: pointer;
+}
+
+.borderDayOneImg:hover {
+    transform: scale(1.05); /* make block 10% bigger */
+}

@@ -47,6 +47,15 @@ body {
     color: black;
 }
 
+.nav a.site-title {
+    transition: transform 0.3s ease;
+}
+
+.nav a.site-title:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
 .nav ul {
     font-family: MartianMono;
     top: 10px;

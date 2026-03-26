@@ -12,6 +12,10 @@
     margin-left: 1.5rem;
 }
 
+.back-button:hover {
+    cursor: pointer;
+}
+
 button {
     all: unset;
 }
