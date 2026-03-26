@@ -6,7 +6,9 @@ function Home() {
     return(
         <div>
             <p className="text">Select an album cover below to learn more about Enhypen's discography!</p>
-            <BorderDayOne />
+            <div className="BorderDayOneBlock">
+                <BorderDayOne />
+            </div>
             <Image />
         </div>
     )
