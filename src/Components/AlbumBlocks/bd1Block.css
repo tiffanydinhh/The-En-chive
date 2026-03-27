@@ -1,6 +1,5 @@
-.card {
+.bd1Card {
    background-image: url(../../assets/bd1/bd1_bg.jpg);
-   border: 1px solid hsl(0, 0%, 80%);
    border-radius: 20px;
    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
    padding: 20px;
@@ -16,7 +15,7 @@
    align-items: center; /* vertical */
 }
 
-.albumTitle {
+.bd1AlbumTitle {
    font-family: PixelifySans;
    font-weight: normal;
    font-size: 3rem;

@@ -1,0 +1,23 @@
+.bcCard {
+    background-image: url("../../assets/bc/bc_bg.jpg");
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin-top: 7rem;
+    float: right;
+    text-align: center;
+    width: 50rem;
+    height: 15.7rem;
+    background-position: center -6rem;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bcAlbumTitle {
+    font-family: PixelifySans;
+    font-weight: normal;
+    font-size: 3rem;
+    color: white;
+}

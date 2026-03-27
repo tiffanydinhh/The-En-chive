@@ -25,5 +25,5 @@
 }
 
 .borderDayOneImg:hover {
-    transform: scale(1.05); /* make block 10% bigger */
+    transform: scale(1.05); /* normal size.5% bigger */
 }

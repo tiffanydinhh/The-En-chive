@@ -1,15 +1,23 @@
 import "./Home.css"
-import BorderDayOne from "../Components/AlbumBlocks/bd1Block.jsx"
-import Image from "../Components/AlbumImages/bd1Img.jsx"
+import BorderDayOneBlock from "../Components/AlbumBlocks/bd1Block.jsx"
+import BorderDayOneImage from "../Components/AlbumImages/bd1Img.jsx"
+import BorderCarnivalBlock from "../Components/AlbumBlocks/bcBlock.jsx"
+import BorderCarnivalImage from "../Components/AlbumImages/bcImg.jsx"
 
 function Home() {
     return(
         <div>
             <p className="text">Select an album cover below to learn more about Enhypen's discography!</p>
-            <BorderDayOne />
+            
+            <BorderDayOneBlock />
             <div className="borderDayOneImg">
-                <Image />
+                <BorderDayOneImage />
             </div>
+
+            <BorderCarnivalBlock />
+            <BorderCarnivalImage />
+            
+
         </div>
     )
 }
