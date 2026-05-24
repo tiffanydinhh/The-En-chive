@@ -27,3 +27,12 @@
 .borderDayOneImg:hover {
     transform: scale(1.05); /* normal size.5% bigger */
 }
+
+#borderCarnivalImg {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#borderCarnivalImg:hover{
+    transform: scale(1.05);
+}

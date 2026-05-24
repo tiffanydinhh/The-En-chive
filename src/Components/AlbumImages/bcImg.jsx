@@ -5,6 +5,6 @@ function bcImage() {
     return(
         <img className="bcImage" src={image} alt="Border: Carnival Image"></img>
     )
-}
+}x
 
 export default bcImage

@@ -15,7 +15,9 @@ function Home() {
             </div>
 
             <BorderCarnivalBlock />
-            <BorderCarnivalImage />
+            <div id="borderCarnivalImg">
+                <BorderCarnivalImage />
+            </div>
             
 
         </div>
