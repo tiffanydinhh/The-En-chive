@@ -1,4 +1,4 @@
-import "./bd1Page.css"
+import "./albumPage.css"
 import BackButton from "../BackButton.jsx"
 import bd1AlbumImage from "../assets/bd1/bd1_logo.jpg"
 import bd1DawnImage from "../assets/bd1/bd1-dawn.jpg"
@@ -11,22 +11,22 @@ function BorderDayOne() {
     return(
         <div>
             <BackButton />
-            <div className="bd1-title-wrapper">
-                <h1 className="bd1-title">Border: Day One</h1>
+            <div className="title-wrapper">
+                <h1 className="title">Border: Day One</h1>
             </div>
 
-            <div className="bd1-album-section">
-                <img className="bd1-album-image" src={bd1AlbumImage} alt="Border Day One Album Image"></img>
+            <div className="album-section">
+                <img className="album-image" src={bd1AlbumImage} alt="Border Day One Album Image"></img>
                 
-                <div className="bd1-album-info">
-                    <p className="bd1-info1"> <b>RELEASE DATE: </b>November 30, 2020</p>
-                    <p className="bd1-info2"> <b>ALBUM SUMMARY: </b>
-                        Border: Day One is Enhypen's debut album. It tells the story of the seven members crossing a border from their past, 
+                <div className="album-info">
+                    <p className="info1"> <b>RELEASE DATE: </b>November 30, 2020</p>
+                    <p className="info2"> <b>ALBUM SUMMARY: </b>
+                        Border: Day One is Enhypen's debut mini-album. It tells the story of the seven members crossing a border from their past, 
                         the survival show that formed the group, I-LAND. It represents the transition from trainees to artists, and explores 
                         the themes of uncertainty, connection, and growth.
                     </p>
 
-                    <p className="bd1-info3"> <b>ACHIEVEMENTS: </b>
+                    <p className="info3"> <b>ACHIEVEMENTS: </b>
                         <ul>
                             <li>Best-selling debut album for a K-pop group in 2020.</li>
                             <li>The title track, Given-Taken, is the most streamed debut song by a boy group.</li>
@@ -36,9 +36,9 @@ function BorderDayOne() {
                 </div>
             </div>
 
-            <div className="bd1-tracklist-section">
-                <div className="bd1-tracklist">
-                    <h1 className="bd1-tracklist-title">TRACKLIST</h1>
+            <div className="tracklist-section">
+                <div className="tracklist">
+                    <h1 className="tracklist-title">TRACKLIST</h1>
 
                     <ol className="bd1-tracklist-songs">
                         <li>Intro: Walk the Line</li>
