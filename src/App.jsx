@@ -7,6 +7,7 @@ import About from "./pages/About"
 import BorderDayOne from "./pages/bd1Page"
 import GivenTaken from "./pages/Title-Tracks/Given-Taken"
 import BorderCarnival from "./pages/bcPage"
+import DrunkDazed from "./pages/Title-Tracks/Drunk-Dazed"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/bd1" element={<BorderDayOne />} />
           <Route path="/giventaken" element={<GivenTaken />} />
           <Route path="bc" element={<BorderCarnival />} />
+          <Route path="/drunkdazed" element={<DrunkDazed />} />
         </Routes>
     </>
   )

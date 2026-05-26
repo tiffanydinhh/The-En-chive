@@ -40,11 +40,11 @@ function BorderDayOne() {
                 <div className="tracklist">
                     <h1 className="tracklist-title">TRACKLIST</h1>
 
-                    <ol className="bd1-tracklist-songs">
+                    <ol className="tracklist-songs">
                         <li>Intro: Walk the Line</li>
 
                         <Link to="/giventaken">
-                            <li className="given-taken">Given-Taken</li>
+                            <li className="title-song">Given-Taken</li>
                         </Link>
 
                         <li>Let Me In (20 Cube)</li>
@@ -53,21 +53,21 @@ function BorderDayOne() {
                         <li>Outro: Cross the Line</li>
                     </ol>
                 </div>
-                <h2 className="bd1-tracklist-description">Click on the star to view more information about the title track!</h2>
+                <h2 className="tracklist-description">Click on the star to view more information about the title track!</h2>
             </div>
 
-            <div className="bd1-ca-title-wrapper">
-                <h1 className="bd1-ca-title">CONCEPTS AND ALBUM VERSIONS</h1>
+            <div className="ca-title-wrapper">
+                <h1 className="ca-title">CONCEPTS AND ALBUM VERSIONS</h1>
             </div>
         
-            <div className="bd1-concept-images">
-                <img className="bd1-dawn-image" src={bd1DawnImage} alt="Dawn Concept Photo"></img>
-                <img className="bd1-dusk-image" src={bd1DuskImage} alt="Dusk Concept Photo"></img>
+            <div className="concept-images">
+                <img className="concept-image1" src={bd1DawnImage} alt="Dawn Concept Photo"></img>
+                <img className="concept-image2" src={bd1DuskImage} alt="Dusk Concept Photo"></img>
             </div>
 
-            <div className="bd1-concept-images-text">
-                <h2 className="dusk-text">DUSK</h2>
-                <h2 className="dawn-text">DAWN</h2>
+            <div className="concept-images-text">
+                <h2 className="concept-image1-text">DUSK</h2>
+                <h2 className="concept-image2-text">DAWN</h2>
             </div>
         </div>
     )

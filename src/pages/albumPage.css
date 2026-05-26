@@ -48,12 +48,12 @@
     padding: 5px 20px;
 }
 
-.bd1-tracklist-songs {
+.tracklist-songs {
     font-family: ReemKufiInk;
     font-size: 2rem;
 }
 
-.bd1-tracklist-description {
+.tracklist-description {
     font-family: ReemKufiInk;
     text-align: center;
     font-size: 1.8rem;
@@ -67,12 +67,12 @@
     margin-left: 7rem;
 }
 
-.given-taken {
+.title-song {
     text-decoration: underline;
     color: black;
 }
 
-.given-taken::after {
+.title-song::after {
     content: "\2605"
 }
 
@@ -82,12 +82,12 @@
     gap: 10rem;
 }
 
-.bd1-ca-title-wrapper {
+.ca-title-wrapper {
     text-align: center;
     margin-top: 7rem;
 }
 
-.bd1-ca-title {
+.ca-title {
     display: inline-block;
     font-family: PixelifySans;
     font-size: 2.5rem;
@@ -98,36 +98,36 @@
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
-.bd1-dawn-image {
+.concept-image1 {
     width: 31.7rem;
     height: auto;
     box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.4);
 }
 
-.bd1-dusk-image {
+.concept-image2 {
     width: 30rem;
     height: auto;
     box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.4);
 }
 
-.bd1-concept-images {
+.concept-images {
     margin-top: 3rem;
     display: flex;
     justify-content: center;
     gap: 5rem;
 }
 
-.dawn-text {
+.concept-image1-text {
     font-family: ReemKufiInk;
     font-weight: bold;
 }
 
-.dusk-text {
+.concept-image2-text {
     font-family: ReemKufiInk;
     font-weight: bold;
 }
 
-.bd1-concept-images-text {
+.concept-images-text {
     display: flex;
     justify-content: center;
     gap: 33rem;
