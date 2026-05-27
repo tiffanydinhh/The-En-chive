@@ -1,9 +1,9 @@
-.given-taken-title-wrapper {
+.titletrack-wrapper {
     text-align: center;
     margin-top: 2rem;
 }
 
-.given-taken-title {
+.titletrack-title {
     display: inline-block;
     font-family: PixelifySans;
     font-size: 2.5rem;
@@ -14,14 +14,14 @@
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
-.given-taken-info-section {
+.titletrack-info-section {
     display: flex;
     align-items: flex-start;
     gap: 5rem;
     margin: 5rem;
 }
 
-.given-taken-info {
+.titletrack-info {
     font-family: ReemKufiInk;
     font-weight: normal;
     font-size: 1.7rem;
@@ -38,13 +38,13 @@
     padding: 5px 20px;
 }
 
-.given-taken-lyrics {
+.titletrack-lyrics {
     font-family: ReemKufiInk;
     font-weight: normal;
     font-size: 1.7rem;
 }
 
-.given-taken-lyrics-section {
+.titletrack-lyrics-section {
     display: flex;
     margin-top: 10rem;
     margin-left: 5rem;
