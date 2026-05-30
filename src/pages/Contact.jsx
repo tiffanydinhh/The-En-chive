@@ -1,10 +1,8 @@
 import "./Contact.css"
-import BackButton from "../BackButton"
 
 function Contact() {
     return(
         <div>
-            <BackButton/>
             <div className="contact-title-wrapper">
                 <h1 className="contact-title">CONTACT</h1>
             </div>
